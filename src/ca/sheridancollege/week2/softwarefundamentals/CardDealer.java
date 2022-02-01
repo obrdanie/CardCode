@@ -15,5 +15,15 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("Diamonds");
+
+        //Declaration of the aceDiamonds Object
+        Card aceDiamonds = new Card("Diamonds", 1);
+        //assigning getters to 2 variables
+        String suit = aceDiamonds.getSuit();
+        int value = aceDiamonds.getValue();
+        //Prints the value of my new object
+        System.out.println("My cards suit is: " + suit);
+        System.out.println("My cards value is: " + value);
+
     }
 }
