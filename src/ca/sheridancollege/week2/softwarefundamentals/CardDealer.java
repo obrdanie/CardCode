@@ -25,5 +25,7 @@ public class CardDealer
         System.out.println("My cards suit is: " + suit);
         System.out.println("My cards value is: " + value);
 
+        Card card = new Card("Spades", 1);
+
     }
 }
